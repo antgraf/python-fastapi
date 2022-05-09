@@ -5,7 +5,10 @@
       <string>PythonFastApi</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>D:\Work\Repos\PythonFastApi\PythonFastApi\main.py</string>
+      <string>D:\Work\Repos\python-fastapi\PythonFastApi\main.py</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>D:\Work\Repos\python-fastapi\PythonFastApi\requirements.txt</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
