@@ -12,6 +12,21 @@
             "cwd": "${workspaceFolder}/PythonFastApi",
             "jinja": true,
             "justMyCode": true
+        },
+        {
+            "name": "Docker: Python - Fastapi",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "python": {
+                "pathMappings": [
+                    {
+                        "localRoot": "${workspaceFolder}",
+                        "remoteRoot": "/app"
+                    }
+                ],
+                "projectType": "fastapi"
+            }
         }
     ]
 }
